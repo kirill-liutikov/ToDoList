@@ -1,0 +1,269 @@
+
+
+
+html, body {
+	height: 100%;
+	margin: 0px;	
+	background-color: #FCFDFD;
+}
+
+h1 {
+	margin: 0px;
+}
+
+.wrapper {
+	top: 0px;	
+	width: 800px;
+	height: 820px;	
+	background:#FCFDFD;
+	position: relative;
+}
+
+header {
+	display: block;
+	height: 100px;	
+  	background: #BCCCDD;
+}
+
+.header_title {
+	color: #292938;
+	margin: auto;	
+	top: 30px;
+	width: 300px;
+	height: 40px;
+	background-color: #BCCCDD;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.main_content {
+	display: block;
+	width: 800px;
+	height: 700px;	
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+.filtr_horizont {
+
+
+	margin: auto;
+	width: 800px;
+	height: 50px;
+	padding-top: 10px;
+	background-color: #ACACD6;
+	text-align: center;
+	position: relative;
+
+}
+
+.a_switcher:link {
+	text-decoration: none;
+}
+
+.filtr_control_block {
+	top: 20px;
+	left: 10px;	
+	width: 180px;
+	height: 150px;
+	background-color: #A0A584; /*#C8B272;*/	
+	text-align: center;
+	position: relative;	
+}
+/*-------------------------------------------------------------------------*/
+
+article {
+	width: 800px;
+	height: 600px;
+	background-color: #FCFDFD;
+	display: inline-block;	
+}
+
+/*----------------------------- task_list_area ------------------------------------*/
+ .task_list_area {
+	width: 798px;
+	height: 530px;
+	position: relative;	
+	background-color: #FCFDFD;
+	 border: 1px solid #000;
+}
+
+.task_list_content {
+	top: 20px;
+	position: relative;
+	width: 760px;
+}
+
+/*2017-05-05 change start*/
+.task {	
+	left: 10px;
+	width: 760px;
+	height: 48px;	
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.task_checkbox_checked {
+	width: 48px;
+	height: 48px;	
+	background-image: url("../img/check-48.png");
+	cursor: pointer;	
+	float: left;	
+}
+
+.task_checkbox_unchecked {
+	width: 48px;
+	height: 48px;	
+	background-image: url("../img/todo-48.png");
+	cursor: pointer;		
+	float: left;	
+}
+
+.task_input_field {
+	left: 20px;
+	top: 5px;
+	width: 660px;
+	height: 30px;
+	position: relative;	
+	text-align: left;	
+	float: left;
+}
+
+/*----- config input field ---------*/
+.task_list_area input[type=text]:hover { 
+ /*border: 2px solid orange;*/
+ color: blue;
+ cursor: pointer;
+}
+
+.task_list_area input[type=text]:focus { 
+ background: #f8f8f8; 
+ border: 1px solid #999;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12pt;
+ font-style:normal;
+ border: 1px blue solid;
+}
+
+.task_list_area input[type=text] { 
+ background: #FCFDFD;
+ border: 0px;
+
+ font-size: 15pt; 
+}
+/*----------------------------------*/
+
+.task_button_trash {
+	left: 10px;
+	width: 48px;
+	height: 48px;
+	position: relative;	
+	background-image: url("../img/basket_64.png");
+	cursor: pointer;		
+	float: left;	
+}
+
+/*end*/
+/*clear: left;*/
+/*----------------------------- pagination_area ------------------------------------*/
+.pagination_area {
+	left:310px;
+	top:  -50px;	
+	width: 200px;
+	height: 48px;
+	position: relative;		
+	background-color: #FCFDFD;
+}
+
+
+.pagination_to_left_button {
+	width: 48px;
+	height: 48px;	
+	background-image: url("../img/back_48.png");
+	cursor: pointer;	
+	float: left;
+}
+
+.pagination_text {
+	left: 10px;
+	top: 10px;
+	width: 75px;
+	height: 30px;			
+	text-align: center;	
+	position: relative;
+	float: left;
+}
+
+.pagination_to_right_button {
+	left: 20px;
+	width: 48px;
+	height: 48px;	
+	background-image: url("../img/next_48.png");
+	cursor: pointer;	
+	position: relative;	
+	float: left;	
+}
+
+
+/*----------------------------- additional_task_area ------------------------------------*/
+.add_task_area {	
+
+	width: 800px;
+	height: 120px;
+	background-color: #ACACD6;
+	position: relative;
+	top: -45px;
+}
+
+
+.add_task_title {	
+	padding-top: 0px;
+	height: 30px;
+	font-style: bold;
+	color: #1A3431;
+	background-color: #FCFDFD;
+	position: relative;
+	text-align: center;
+}
+
+.add_task_content {
+	top: 10px;
+	left: 10px;
+	
+	width: 800px;
+	height: 48px;
+	padding: 0px;
+	position: relative;
+	/*background: grey;*/
+}
+
+
+.form_add_input {
+	left: 20px;
+	top: 10px;
+	width: 700px;
+	height: 30px;
+	position: relative;	
+	text-align: left;	
+	float: left;
+}
+
+.form_add_button {
+	left: 700px;
+	width: 48px;
+	height: 48px;
+	position: relative;	
+	background-image: url("../img/add-48.png");
+	cursor: pointer;		
+}
+
+
+
+
+
+
